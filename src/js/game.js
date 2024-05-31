@@ -17,18 +17,18 @@ export class Game extends Engine {
 
     startGame() {
 
-        let transitionsIntro = {
-            in: new FadeInOut({ duration: 400, direction: 'in', color: Color.Black }),
-            out: new FadeInOut({ duration: 400, direction: 'out', color: Color.Black })
-        }
-        let transitionsGame = {
-            in: new FadeInOut({ duration: 400, direction: 'in', color: Color.Black }),
-            out: new FadeInOut({ duration: 4000, direction: 'out', color: Color.Black })
-        }
-        let transitionsOutro = {
-            in: new FadeInOut({ duration: 4000, direction: 'in', color: Color.Black }),
-            out: new FadeInOut({ duration: 400, direction: 'out', color: Color.Black })
-        }
+        // let transitionsIntro = {
+        //     in: new FadeInOut({ duration: 400, direction: 'in', color: Color.Black }),
+        //     out: new FadeInOut({ duration: 400, direction: 'out', color: Color.Black })
+        // }
+        // let transitionsGame = {
+        //     in: new FadeInOut({ duration: 400, direction: 'in', color: Color.Black }),
+        //     out: new FadeInOut({ duration: 4000, direction: 'out', color: Color.Black })
+        // }
+        // let transitionsOutro = {
+        //     in: new FadeInOut({ duration: 4000, direction: 'in', color: Color.Black }),
+        //     out: new FadeInOut({ duration: 400, direction: 'out', color: Color.Black })
+        // }
 
         // this.add('introScene', { scene: new Intro(), transitionsIntro })
         // this.add('gameScene', { scene: new GameScene(), transitionsGame })
